@@ -59,7 +59,7 @@ export default function PortfolioPage() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-6 max-w-3xl mx-auto">
             <Badge variant="outline" className="mb-4">
               Our Work
@@ -74,7 +74,7 @@ export default function PortfolioPage() {
 
       {/* Portfolio Grid */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {portfolioItems.map((item, index) => (
               <Card
@@ -117,7 +117,7 @@ export default function PortfolioPage() {
 
       {/* Results Section */}
       <section className="py-20 bg-slate-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Real Results, Real Impact</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -148,7 +148,7 @@ export default function PortfolioPage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-amber-600 text-white">
-        <div className="container px-4 text-center">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-bold sm:text-5xl">Ready to Join Our Success Stories?</h2>
             <p className="text-xl text-orange-100">

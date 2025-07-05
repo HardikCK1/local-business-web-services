@@ -8,7 +8,7 @@ export default function AboutPage() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <Badge variant="outline" className="mb-4">
               About LocalWeb Pro
@@ -24,7 +24,7 @@ export default function AboutPage() {
 
       {/* Mission Section */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div className="space-y-6">
               <div className="space-y-4">
@@ -65,7 +65,7 @@ export default function AboutPage() {
 
       {/* Values Section */}
       <section className="py-20 bg-slate-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Our Core Values</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -124,7 +124,7 @@ export default function AboutPage() {
 
       {/* Team Section */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Meet Our Team</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -181,7 +181,7 @@ export default function AboutPage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-amber-600 text-white">
-        <div className="container px-4 text-center">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-bold sm:text-5xl">Ready to Work Together?</h2>
             <p className="text-xl text-orange-100">

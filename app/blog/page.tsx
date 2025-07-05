@@ -68,7 +68,7 @@ export default function BlogPage() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-6 max-w-3xl mx-auto">
             <Badge variant="outline" className="mb-4">
               Our Blog
@@ -83,7 +83,7 @@ export default function BlogPage() {
 
       {/* Featured Post */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-4xl mx-auto">
             <Badge className="mb-4 bg-orange-100 text-orange-800">Featured Post</Badge>
             <Card className="border-0 shadow-2xl overflow-hidden">
@@ -131,7 +131,7 @@ export default function BlogPage() {
 
       {/* Blog Posts Grid */}
       <section className="py-20 bg-slate-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Latest Articles</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -182,7 +182,7 @@ export default function BlogPage() {
 
       {/* Newsletter Signup */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-amber-600 text-white">
-        <div className="container px-4 text-center">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-bold sm:text-5xl">Stay Updated</h2>
             <p className="text-xl text-orange-100">

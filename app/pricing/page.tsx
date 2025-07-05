@@ -13,7 +13,7 @@ export default function PricingPage() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-6 max-w-3xl mx-auto">
             <Badge variant="outline" className="mb-4">
               Pricing Plans
@@ -26,7 +26,7 @@ export default function PricingPage() {
 
       {/* Pricing Cards */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="grid gap-8 lg:grid-cols-3 max-w-6xl mx-auto">
             {content.pricing.plans.map((plan, index) => (
               <Card
@@ -91,7 +91,7 @@ export default function PricingPage() {
 
       {/* Add-ons Section */}
       <section className="py-20 bg-slate-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Optional Add-On Services</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -126,7 +126,7 @@ export default function PricingPage() {
 
       {/* FAQ Section */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl font-bold sm:text-5xl">Frequently Asked Questions</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -188,7 +188,7 @@ export default function PricingPage() {
 
       {/* Testimonial */}
       <section className="py-20">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <Card className="max-w-4xl mx-auto border-0 shadow-2xl bg-gradient-to-br from-orange-50 to-amber-50">
             <CardContent className="p-12 text-center">
               <div className="flex justify-center mb-6">
@@ -214,7 +214,7 @@ export default function PricingPage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-amber-600 text-white">
-        <div className="container px-4 text-center">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-bold sm:text-5xl">Ready to Choose Your Plan?</h2>
             <p className="text-xl text-orange-100">

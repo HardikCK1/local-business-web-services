@@ -14,7 +14,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-20 lg:py-32">
         <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
@@ -85,7 +85,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="py-20 bg-white">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="mb-4">
               Why Choose Us
@@ -189,7 +189,7 @@ export default function HomePage() {
 
       {/* Testimonials */}
       <section className="py-20 bg-slate-50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="mb-4">
               Success Stories
@@ -226,7 +226,7 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-amber-600 text-white">
-        <div className="container px-4 text-center">
+        <div className="container mx-auto px-4 w-full max-w-screen-xl">
           <div className="max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-bold sm:text-5xl">Ready to Transform Your Business?</h2>
             <p className="text-xl text-orange-100">
